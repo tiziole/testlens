@@ -1,0 +1,32 @@
+/* Collegamento a font locali */
+@font-face {
+    font-family: 'Neutral Sans Regular';
+    src: url('./fonts/NeutralSans-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Neutral Sans Medium';
+    src: url('./fonts/NeutralSans-Meidum.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Neutral Sans Bold';
+    src: url('./fonts/NeutralSans-Bold') format('opentype');
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Neutral SansRegular', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Titoli con un altro font */
+h1, h2, h3 {
+    font-family: 'Neutral Sans Bold', serif;
+}
