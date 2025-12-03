@@ -19,16 +19,72 @@
 
 body {
     font-family: 'NeutralSans-Regular', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 100px 50px;
 }
 
-/* Titoli con un altro font */
 h1, h2, h3 {
     font-family: 'NeutralSans-Bold', serif;
     font-size: 40px;
+    margin:0;
+    letter-spacing: -.02rem;
+    line-height: 1.2em;
+}
+
+p{
+padding: 0;
+}
+
+h1{
+padding: 0;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg{
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 576px){
+
+    body {
+    font-size: 12px;
+    margin: 0;
+    padding: 30px 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'NeutralSans-Bold', serif;
+    font-size: 28px;
+    margin:0;
+    letter-spacing: -.02rem;
+    line-height: 1.8rem;
+}
+
+p{
+padding: 0;
+}
+
+h1{
+padding: 0;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
 }
