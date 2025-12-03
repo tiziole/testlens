@@ -1,24 +1,24 @@
 /* Collegamento a font locali */
 @font-face {
-    font-family: 'Neutral Sans Regular';
+    font-family: 'NeutralSans-Regular';
     src: url('./fonts/NeutralSans-Regular.otf') format('opentype');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Neutral Sans Medium';
+    font-family: 'NeutralSans-Medium';
     src: url('./fonts/NeutralSans-Meidum.otf') format('opentype');
     font-weight: 500;
 }
 
 @font-face {
-    font-family: 'Neutral Sans Bold';
+    font-family: 'NeutralSans-Bold';
     src: url('./fonts/NeutralSans-Bold') format('opentype');
     font-weight: 700;
 }
 
 body {
-    font-family: 'Neutral SansRegular', sans-serif;
+    font-family: 'Neutral Sans Regular', sans-serif;
     font-size: 12px;
 }
 
