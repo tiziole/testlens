@@ -29,6 +29,6 @@ body {
 
 /* Titoli con un altro font */
 h1, h2, h3 {
-    font-family: 'Neutral Sans Bold', serif;
+    font-family: 'NeutralSans-Bold', serif;
     font-size: 40px;
 }
